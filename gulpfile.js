@@ -6,7 +6,7 @@ sass.compiler = require('node-sass');
 gulp.task('scss', function () {
     return gulp.src('./src/scss/*.scss')
         .pipe(sass())
-        .pipe(gulp.dest('.build/css'));
+        .pipe(gulp.dest('./build/css'));
 });
 
 gulp.task('watch', function () {
