@@ -1,0 +1,69 @@
+@import 'variables';
+
+.header{
+    padding: 15px 0 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: $fs8;
+}
+
+.logo{
+    font-size: $fs7;
+    color: $c1;
+    text-transform: uppercase;
+    font-weight: $fw2;
+
+    &::after{
+        content: 'news';
+        color: $c3;
+    }
+}
+
+.nav{
+    font-size: $fs3;
+    margin-right: 218px;
+
+    & a{
+        margin: 0 10px;
+        font-weight: $fw2;
+
+        &:hover{
+            color: $c3;
+            transition: 0.3s;
+            font-weight: $fw2;
+        }
+
+        &:active{
+            color: $c3-1;
+        }
+    }
+}
+
+.authorization{
+
+    text-align: center;
+
+    & a{
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        background-color: $c10;
+        vertical-align: top;
+        color: $c2;
+        text-transform: uppercase;
+        line-height: $fs8;
+
+        &:last-child{
+            background-color: $c3;
+            width: 150px;
+            font-size: $fs3;
+            font-weight: $fw2;
+        }
+    }
+
+    &:hover{
+        opacity: 0.85;
+        transition: 0.4s;
+    }
+}
