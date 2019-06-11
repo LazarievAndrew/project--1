@@ -2,4 +2,160 @@
 
 .topnews{
     background-color: $c1;
+    color: $c2;
+
+    &__images{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-auto-rows: 120px;
+        font-size: $fs2;
+        text-transform: uppercase;
+
+        & div{
+            background-repeat: no-repeat;
+            line-height: 13px;
+            background-size: cover;
+            position: relative;
+
+            & a{
+                background-color: $c1;
+                opacity: 0.8;
+                position: absolute;
+                padding: 8px;
+
+                &:hover{
+                    opacity: 0.5;
+                }
+
+                &:active{
+                    opacity: 0.8;
+                }
+            }
+        }
+        
+        &__1{
+            background-image: url(../images/image1.png);
+            grid-column-end: span 2;
+
+            &__1{
+                top: 85px;
+                right: 0;
+                
+                &:hover{
+                    border-right: 2px solid $c3;
+                }
+            }
+        }
+
+        &__2{
+            background-image: url(../images/image2.png);
+
+            &__2{
+                top: 65px;
+                right: 0;
+                left: 14px;
+                
+                &:hover{
+                    border-right: 2px solid $c3;
+                }
+            }
+        }
+
+        &__3{
+            background-image: url(../images/image3.png);
+            
+            &__3{
+                top: 65px;
+                right: 0;
+                left: 14px;
+                
+                &:hover{
+                    border-right: 2px solid $c3;
+                }
+            }
+        }
+
+        &__4{
+            background-image: url(../images/image4.png);
+            grid-column-end: span 2;
+            grid-row-end: span 2;
+
+            &__4{
+                top: 185px;
+                left: 24px;
+                right: 24px;
+                max-width: 202px;
+                
+                &:hover{
+                    border-bottom: 2px solid $c3;
+                }
+            }
+        }
+
+        &__5{
+            background-image: url(../images/image5.png);
+            grid-column-end: span 2;
+
+            &__5{
+                top: 85px;
+                right: 0;
+                
+                &:hover{
+                    border-right: 2px solid $c3;
+                }
+            }
+        }
+
+        &__6{
+            background-image: url(../images/image6.png);
+
+            &__6{
+                top: 65px;
+                right: 14px;
+                
+                &:hover{
+                    border-left: 2px solid $c3;
+                }
+            }
+        }
+
+        &__7{
+            background-image: url(../images/image7.png);
+
+            &__7{
+                top: 65px;
+                right: 14px;
+                
+                &:hover{
+                    border-left: 2px solid $c3;
+                }
+            }
+        }
+
+        &__8{
+            background-image: url(../images/image8.png);
+            grid-column-end: span 2;
+
+            &__8{
+                top: 82px;
+                
+                &:hover{
+                    border-left: 2px solid $c3;
+                }
+            }
+        }
+
+        &__9{
+            background-image: url(../images/image9.png);
+            grid-column-end: span 2;
+
+            &__9{
+                top: 82px;
+                
+                &:hover{
+                    border-left: 2px solid $c3;
+                }
+            }
+        }
+    }
 }

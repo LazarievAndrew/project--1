@@ -6,9 +6,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     line-height: $fs8;
+    color: $c7;
 }
 
 .logo{
+    display: block;
     font-size: $fs7;
     color: $c1;
     text-transform: uppercase;
@@ -30,7 +32,6 @@
 
         &:hover{
             color: $c3;
-            transition: 0.3s;
             font-weight: $fw2;
         }
 
@@ -43,6 +44,7 @@
 .authorization{
 
     text-align: center;
+    color: $c2;
 
     & a{
         height: 30px;
@@ -50,20 +52,29 @@
         display: inline-block;
         background-color: $c10;
         vertical-align: top;
-        color: $c2;
         text-transform: uppercase;
         line-height: $fs8;
+        
+        &:hover{
+            opacity: 1;
+        }
 
         &:last-child{
             background-color: $c3;
             width: 150px;
             font-size: $fs3;
             font-weight: $fw2;
+            opacity: 1;
         }
     }
 
     &:hover{
-        opacity: 0.85;
-        transition: 0.4s;
+        opacity: 0.7;
+        transition: 0.5s;
+    }
+
+    &:active{
+        color: $c3-1;
+        transition: 0s;
     }
 }
