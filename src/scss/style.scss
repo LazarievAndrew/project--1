@@ -7,14 +7,16 @@
     font-weight: $fw1;
 }
 
-body{
-    display: grid;
-    grid-auto-rows: auto 1fr auto;
-    // min-height: 100vh;
-}
+// body{
+//     // display: grid;
+//     // grid-auto-rows: auto 1fr auto;
+//     // min-height: 100vh;
+// }
 
 .container{
-    max-width: 1000px;
+    max-width: 1040px;
+    padding-left: 20px;
+    padding-right: 20px;
     min-width: 320px;
     margin: 0 auto;
 }

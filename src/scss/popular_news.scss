@@ -1,0 +1,19 @@
+@import 'variables';
+
+.popular{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 38px 90px 90px 35px;
+    grid-gap: 10px;
+
+    &__title{
+        grid-column-end: span 2;
+    }
+
+    &__news{
+
+        &__see_all{
+            grid-column-end: span 2;
+        }
+    }
+}
