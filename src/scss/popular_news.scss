@@ -8,12 +8,45 @@
 
     &__title{
         grid-column-end: span 2;
+        color: $c1;
+        font-size: $fs5;
+        border-bottom: 1px solid $c1-1;
+        line-height: $fs10;
+        text-transform: uppercase;
     }
 
     &__news{
+        display: grid;
+        grid-template-columns: 80px auto;
+        background-color: $c1;
+
+        & img{
+            margin: auto auto;
+            border-left: 10px solid $c12;
+        }
+
+        & div{
+            color: $c11;
+            font-size: $fs4;
+            line-height: $fs6;
+            text-transform: uppercase;
+            margin: auto 0; 
+            padding: 10px;
+
+            & p:last-child{
+                font-size: $fs2;
+                opacity: 0.25;
+            }
+        }
 
         &__see_all{
             grid-column-end: span 2;
+            background-color: $c1;
+            color: $c5;
+            font-size: $fs3;
+            text-transform: uppercase;
+            line-height: $fs9-1;
+            text-align: center;
         }
     }
 }

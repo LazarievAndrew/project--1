@@ -1,0 +1,20 @@
+@import 'variables';
+
+.news{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px 20px;
+    padding-top: 10px;
+    max-width: 734px;
+    font-size: $fs4;
+    text-transform: uppercase;
+
+    &__card{
+        
+        & p{
+            font-weight: $fw2;
+            opacity: 0.55;
+            color: $c1;
+        }
+    }
+}
