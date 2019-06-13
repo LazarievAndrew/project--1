@@ -40,6 +40,7 @@
             &__1{
                 top: 85px;
                 right: 0;
+                border-right: 2px solid $c1;
                 
                 &:hover{
                     border-right: 2px solid $c3;
@@ -54,6 +55,7 @@
                 top: 65px;
                 right: 0;
                 left: 14px;
+                border-right: 2px solid $c1;
                 
                 &:hover{
                     border-right: 2px solid $c3;
@@ -68,6 +70,7 @@
                 top: 65px;
                 right: 0;
                 left: 14px;
+                border-right: 2px solid $c1;
                 
                 &:hover{
                     border-right: 2px solid $c3;
@@ -85,6 +88,7 @@
                 left: 24px;
                 right: 24px;
                 max-width: 202px;
+                border-bottom: 2px solid $c1;
                 
                 &:hover{
                     border-bottom: 2px solid $c3;
@@ -99,6 +103,7 @@
             &__5{
                 top: 85px;
                 right: 0;
+                border-right: 2px solid $c1;
                 
                 &:hover{
                     border-right: 2px solid $c3;
@@ -112,6 +117,7 @@
             &__6{
                 top: 65px;
                 right: 14px;
+                border-left: 2px solid $c1;
                 
                 &:hover{
                     border-left: 2px solid $c3;
@@ -125,6 +131,7 @@
             &__7{
                 top: 65px;
                 right: 14px;
+                border-left: 2px solid $c1;
                 
                 &:hover{
                     border-left: 2px solid $c3;
@@ -138,6 +145,7 @@
 
             &__8{
                 top: 82px;
+                border-left: 2px solid $c1;
                 
                 &:hover{
                     border-left: 2px solid $c3;
@@ -151,6 +159,7 @@
 
             &__9{
                 top: 82px;
+                border-left: 2px solid $c1;
                 
                 &:hover{
                     border-left: 2px solid $c3;

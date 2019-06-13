@@ -7,12 +7,6 @@
     font-weight: $fw1;
 }
 
-// body{
-//     // display: grid;
-//     // grid-auto-rows: auto 1fr auto;
-//     // min-height: 100vh;
-// }
-
 .container{
     max-width: 1040px;
     padding-left: 20px;
@@ -30,4 +24,11 @@ a{
     &:hover{
         opacity: 0.5;
     }
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-gap: 15px;
+    margin-top: 15px;
 }

@@ -1,0 +1,104 @@
+@import 'variables';
+
+.aside{
+    grid-row-end: span 2;
+
+    &__nav a{
+        display: block;
+        font-size: $fs4;
+        color: $c1;
+        line-height: 31px;
+        text-transform: uppercase;
+        border-left: 2px solid $c3;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-bottom: 1px;
+
+        &:hover{
+            background-color: $c3;
+            color: $c9;
+            opacity: 0.85;
+        }
+
+        &:active{
+            color: $c3-1;
+        }
+    }
+
+    &__news{
+        margin-top: 10px;
+
+        &__title{
+            color: $c1;
+            font-size: $fs4;
+            text-transform: uppercase;
+            border-bottom: 1px solid $c1-2;
+            margin-bottom: 9px;
+        }
+
+        &__card{
+            display: grid;
+            grid-template-columns: 45px auto;
+            grid-column-gap: 9px;
+            color: $c1;
+            margin-bottom: 8px;
+
+            &__img{
+                grid-row-end: span 2;
+            }
+
+            &__title{
+                font-size: $fs3;
+                text-transform: uppercase;
+                line-height: 15px;
+                margin: auto 0;
+
+                &:hover{
+                    text-decoration: underline;
+                    color: $c3;
+                    opacity: 1;
+                }
+
+                &:active{
+                    color: $c3-1;
+                }
+            }
+
+            &__category{
+                font-size: $fs1;
+                text-transform: uppercase;
+                opacity: 0.45;
+
+                &:hover{
+                    opacity: 1;
+                }
+
+                &:active{
+                    color: $c3-1;
+                }
+            }
+        }
+    }
+
+    &__advertising{
+        background-color: $c3;
+        color: $c2;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-top: 15px;
+
+        & i{
+            font-size: $fs10;
+            margin-bottom: 30px;
+        }
+
+        & p{
+            font-size: $fs8;
+        }
+
+        & p:last-child{
+            font-size: $fs9;
+        }
+    }
+}

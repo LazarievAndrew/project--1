@@ -3,7 +3,7 @@
 .popular{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 38px 90px 90px 35px;
+    grid-template-rows: 30px 90px 90px 35px;
     grid-gap: 10px;
 
     &__title{
@@ -11,7 +11,7 @@
         color: $c1;
         font-size: $fs5;
         border-bottom: 1px solid $c1-1;
-        line-height: $fs10;
+        line-height: $fs8;
         text-transform: uppercase;
     }
 
